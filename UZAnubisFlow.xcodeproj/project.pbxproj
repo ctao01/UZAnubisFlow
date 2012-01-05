@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E76BA0114B6572D00B144F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76BA0014B6572D00B144F4 /* UIKit.framework */; };
+		7E76BA0314B6572D00B144F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76BA0214B6572D00B144F4 /* Foundation.framework */; };
+		7E76BA0514B6572D00B144F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76BA0414B6572D00B144F4 /* CoreGraphics.framework */; };
+		7E76BA0714B6572D00B144F4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76BA0614B6572D00B144F4 /* CoreData.framework */; };
+		7E76BA0D14B6572D00B144F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E76BA0B14B6572D00B144F4 /* InfoPlist.strings */; };
+		7E76BA0F14B6572D00B144F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E76BA0E14B6572D00B144F4 /* main.m */; };
+		7E76BA1314B6572D00B144F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E76BA1214B6572D00B144F4 /* AppDelegate.m */; };
+		7E76BA1614B6572D00B144F4 /* UZAnubisFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E76BA1414B6572D00B144F4 /* UZAnubisFlow.xcdatamodeld */; };
+		7E76BA1E14B6572D00B144F4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76BA1D14B6572D00B144F4 /* SenTestingKit.framework */; };
+		7E76BA1F14B6572D00B144F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76BA0014B6572D00B144F4 /* UIKit.framework */; };
+		7E76BA2014B6572D00B144F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76BA0214B6572D00B144F4 /* Foundation.framework */; };
+		7E76BA2114B6572D00B144F4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76BA0614B6572D00B144F4 /* CoreData.framework */; };
+		7E76BA2914B6572D00B144F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E76BA2714B6572D00B144F4 /* InfoPlist.strings */; };
+		7E76BA2C14B6572D00B144F4 /* UZAnubisFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E76BA2B14B6572D00B144F4 /* UZAnubisFlowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E76BA2214B6572D00B144F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E76B9F314B6572D00B144F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E76B9FB14B6572D00B144F4;
+			remoteInfo = UZAnubisFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E76B9FC14B6572D00B144F4 /* UZAnubisFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UZAnubisFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E76BA0014B6572D00B144F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E76BA0214B6572D00B144F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E76BA0414B6572D00B144F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E76BA0614B6572D00B144F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7E76BA0A14B6572D00B144F4 /* UZAnubisFlow-Info.plist */ = {isa = PBXFileReference; path = "UZAnubisFlow-Info.plist"; sourceTree = "<group>"; };
+		7E76BA0C14B6572D00B144F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E76BA0E14B6572D00B144F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E76BA1014B6572D00B144F4 /* UZAnubisFlow-Prefix.pch */ = {isa = PBXFileReference; path = "UZAnubisFlow-Prefix.pch"; sourceTree = "<group>"; };
+		7E76BA1114B6572D00B144F4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E76BA1214B6572D00B144F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E76BA1514B6572D00B144F4 /* UZAnubisFlow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UZAnubisFlow.xcdatamodel; sourceTree = "<group>"; };
+		7E76BA1C14B6572D00B144F4 /* UZAnubisFlowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UZAnubisFlowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E76BA1D14B6572D00B144F4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E76BA2614B6572D00B144F4 /* UZAnubisFlowTests-Info.plist */ = {isa = PBXFileReference; path = "UZAnubisFlowTests-Info.plist"; sourceTree = "<group>"; };
+		7E76BA2814B6572D00B144F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E76BA2A14B6572D00B144F4 /* UZAnubisFlowTests.h */ = {isa = PBXFileReference; path = UZAnubisFlowTests.h; sourceTree = "<group>"; };
+		7E76BA2B14B6572D00B144F4 /* UZAnubisFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UZAnubisFlowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E76B9F914B6572D00B144F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E76BA0114B6572D00B144F4 /* UIKit.framework in Frameworks */,
+				7E76BA0314B6572D00B144F4 /* Foundation.framework in Frameworks */,
+				7E76BA0514B6572D00B144F4 /* CoreGraphics.framework in Frameworks */,
+				7E76BA0714B6572D00B144F4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E76BA1814B6572D00B144F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E76BA1E14B6572D00B144F4 /* SenTestingKit.framework in Frameworks */,
+				7E76BA1F14B6572D00B144F4 /* UIKit.framework in Frameworks */,
+				7E76BA2014B6572D00B144F4 /* Foundation.framework in Frameworks */,
+				7E76BA2114B6572D00B144F4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E76B9F114B6572D00B144F4 = {
+			isa = PBXGroup;
+			children = (
+				7E76BA0814B6572D00B144F4 /* UZAnubisFlow */,
+				7E76BA2414B6572D00B144F4 /* UZAnubisFlowTests */,
+				7E76B9FF14B6572D00B144F4 /* Frameworks */,
+				7E76B9FD14B6572D00B144F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E76B9FD14B6572D00B144F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E76B9FC14B6572D00B144F4 /* UZAnubisFlow.app */,
+				7E76BA1C14B6572D00B144F4 /* UZAnubisFlowTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E76B9FF14B6572D00B144F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E76BA0014B6572D00B144F4 /* UIKit.framework */,
+				7E76BA0214B6572D00B144F4 /* Foundation.framework */,
+				7E76BA0414B6572D00B144F4 /* CoreGraphics.framework */,
+				7E76BA0614B6572D00B144F4 /* CoreData.framework */,
+				7E76BA1D14B6572D00B144F4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E76BA0814B6572D00B144F4 /* UZAnubisFlow */ = {
+			isa = PBXGroup;
+			children = (
+				7E76BA1114B6572D00B144F4 /* AppDelegate.h */,
+				7E76BA1214B6572D00B144F4 /* AppDelegate.m */,
+				7E76BA1414B6572D00B144F4 /* UZAnubisFlow.xcdatamodeld */,
+				7E76BA0914B6572D00B144F4 /* Supporting Files */,
+			);
+			path = UZAnubisFlow;
+			sourceTree = "<group>";
+		};
+		7E76BA0914B6572D00B144F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E76BA0A14B6572D00B144F4 /* UZAnubisFlow-Info.plist */,
+				7E76BA0B14B6572D00B144F4 /* InfoPlist.strings */,
+				7E76BA0E14B6572D00B144F4 /* main.m */,
+				7E76BA1014B6572D00B144F4 /* UZAnubisFlow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E76BA2414B6572D00B144F4 /* UZAnubisFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E76BA2A14B6572D00B144F4 /* UZAnubisFlowTests.h */,
+				7E76BA2B14B6572D00B144F4 /* UZAnubisFlowTests.m */,
+				7E76BA2514B6572D00B144F4 /* Supporting Files */,
+			);
+			path = UZAnubisFlowTests;
+			sourceTree = "<group>";
+		};
+		7E76BA2514B6572D00B144F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E76BA2614B6572D00B144F4 /* UZAnubisFlowTests-Info.plist */,
+				7E76BA2714B6572D00B144F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E76B9FB14B6572D00B144F4 /* UZAnubisFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E76BA2F14B6572E00B144F4 /* Build configuration list for PBXNativeTarget "UZAnubisFlow" */;
+			buildPhases = (
+				7E76B9F814B6572D00B144F4 /* Sources */,
+				7E76B9F914B6572D00B144F4 /* Frameworks */,
+				7E76B9FA14B6572D00B144F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UZAnubisFlow;
+			productName = UZAnubisFlow;
+			productReference = 7E76B9FC14B6572D00B144F4 /* UZAnubisFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E76BA1B14B6572D00B144F4 /* UZAnubisFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E76BA3214B6572E00B144F4 /* Build configuration list for PBXNativeTarget "UZAnubisFlowTests" */;
+			buildPhases = (
+				7E76BA1714B6572D00B144F4 /* Sources */,
+				7E76BA1814B6572D00B144F4 /* Frameworks */,
+				7E76BA1914B6572D00B144F4 /* Resources */,
+				7E76BA1A14B6572D00B144F4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E76BA2314B6572D00B144F4 /* PBXTargetDependency */,
+			);
+			name = UZAnubisFlowTests;
+			productName = UZAnubisFlowTests;
+			productReference = 7E76BA1C14B6572D00B144F4 /* UZAnubisFlowTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E76B9F314B6572D00B144F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7E76B9F614B6572D00B144F4 /* Build configuration list for PBXProject "UZAnubisFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E76B9F114B6572D00B144F4;
+			productRefGroup = 7E76B9FD14B6572D00B144F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E76B9FB14B6572D00B144F4 /* UZAnubisFlow */,
+				7E76BA1B14B6572D00B144F4 /* UZAnubisFlowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E76B9FA14B6572D00B144F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E76BA0D14B6572D00B144F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E76BA1914B6572D00B144F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E76BA2914B6572D00B144F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E76BA1A14B6572D00B144F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E76B9F814B6572D00B144F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E76BA0F14B6572D00B144F4 /* main.m in Sources */,
+				7E76BA1314B6572D00B144F4 /* AppDelegate.m in Sources */,
+				7E76BA1614B6572D00B144F4 /* UZAnubisFlow.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E76BA1714B6572D00B144F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E76BA2C14B6572D00B144F4 /* UZAnubisFlowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E76BA2314B6572D00B144F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E76B9FB14B6572D00B144F4 /* UZAnubisFlow */;
+			targetProxy = 7E76BA2214B6572D00B144F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E76BA0B14B6572D00B144F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E76BA0C14B6572D00B144F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E76BA2714B6572D00B144F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E76BA2814B6572D00B144F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E76BA2D14B6572E00B144F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E76BA2E14B6572E00B144F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E76BA3014B6572E00B144F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UZAnubisFlow/UZAnubisFlow-Prefix.pch";
+				INFOPLIST_FILE = "UZAnubisFlow/UZAnubisFlow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E76BA3114B6572E00B144F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UZAnubisFlow/UZAnubisFlow-Prefix.pch";
+				INFOPLIST_FILE = "UZAnubisFlow/UZAnubisFlow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E76BA3314B6572E00B144F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UZAnubisFlow.app/UZAnubisFlow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UZAnubisFlow/UZAnubisFlow-Prefix.pch";
+				INFOPLIST_FILE = "UZAnubisFlowTests/UZAnubisFlowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7E76BA3414B6572E00B144F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UZAnubisFlow.app/UZAnubisFlow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UZAnubisFlow/UZAnubisFlow-Prefix.pch";
+				INFOPLIST_FILE = "UZAnubisFlowTests/UZAnubisFlowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E76B9F614B6572D00B144F4 /* Build configuration list for PBXProject "UZAnubisFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E76BA2D14B6572E00B144F4 /* Debug */,
+				7E76BA2E14B6572E00B144F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E76BA2F14B6572E00B144F4 /* Build configuration list for PBXNativeTarget "UZAnubisFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E76BA3014B6572E00B144F4 /* Debug */,
+				7E76BA3114B6572E00B144F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E76BA3214B6572E00B144F4 /* Build configuration list for PBXNativeTarget "UZAnubisFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E76BA3314B6572E00B144F4 /* Debug */,
+				7E76BA3414B6572E00B144F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E76BA1414B6572D00B144F4 /* UZAnubisFlow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E76BA1514B6572D00B144F4 /* UZAnubisFlow.xcdatamodel */,
+			);
+			currentVersion = 7E76BA1514B6572D00B144F4 /* UZAnubisFlow.xcdatamodel */;
+			path = UZAnubisFlow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7E76B9F314B6572D00B144F4 /* Project object */;
+}
